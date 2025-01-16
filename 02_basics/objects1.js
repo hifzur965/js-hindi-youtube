@@ -68,7 +68,7 @@ const course = {
  const {courseInstructor: instructor} = course
 
 //console.log(courseInstructor);
- console.log(instructor);
+ //console.log(instructor);
 
 // {
 //     "name": "hitesh",
@@ -82,3 +82,368 @@ const course = {
 //     {}
 // ]
 
+const tson ={
+    "externalId": "MI4300031060",
+    "orderCurrency": "USD",
+    "requestedCompletionDate": "2024-09-27",
+    "@type": "ProductOrder",
+    "dispositionComments": "PORT OUT",
+    "relatedParty": [
+      {
+        "id": "300819011",
+        "@type": "RelatedParty",
+        "@referredType": "Consumer"
+      }
+    ],
+    "productOrderItem": [
+      {
+        "id": 1,
+        "action": "delete",
+        "product": {
+          "id": "PI1676064",
+          "productSpecification": {
+            "id": "Copper_POTS",
+            "@type": "ProductSpecificationRef"
+          },
+          "productCharacteristic": [
+            {
+              "name": "PRODUCT_ID",
+              "value": "8106396851"
+            },
+            {
+              "name": "additionalInfo",
+              "value": "{\"telecomServicePriority\":\"\"}"
+            },
+            {
+              "name": "PRODUCT_TYPE",
+              "value": "IL"
+            },
+            {
+              "name": "ServiceType",
+              "value": "POTS"
+            },
+            {
+              "name": "featureCode",
+              "value": "2003ML"
+            },
+            {
+              "name": "telephoneNum",
+              "value": "18106396851"
+            },
+            {
+              "name": "PRODUCT_SUB_TYPE",
+              "value": "PT"
+            },
+            {
+              "name": "isParent",
+              "value": "False"
+            }
+          ],
+          "place": {
+            "id": "400000008905040",
+            "@type": "Place"
+          },
+          "@type": "Product"
+        },
+        "@type": "ProductOrderItem",
+        "productOffering": {
+          "id": "2003ML",
+          "name": "Access Recovery Charge",
+          "externalProductId": ""
+        }
+      },
+      {
+        "id": 2,
+        "action": "delete",
+        "product": {
+          "id": "PI1676061",
+          "productSpecification": {
+            "id": "Copper_POTS",
+            "@type": "ProductSpecificationRef"
+          },
+          "productCharacteristic": [
+            {
+              "name": "PRODUCT_ID",
+              "value": "8106396851"
+            },
+            {
+              "name": "additionalInfo",
+              "value": "{\"telecomServicePriority\":\"\"}"
+            },
+            {
+              "name": "PRODUCT_TYPE",
+              "value": "IL"
+            },
+            {
+              "name": "ServiceType",
+              "value": "POTS"
+            },
+            {
+              "name": "featureCode",
+              "value": "2000"
+            },
+            {
+              "name": "telephoneNum",
+              "value": "18106396851"
+            },
+            {
+              "name": "PRODUCT_SUB_TYPE",
+              "value": "PT"
+            },
+            {
+              "name": "isParent",
+              "value": "False"
+            }
+          ],
+          "place": {
+            "id": "400000008905040",
+            "@type": "Place"
+          },
+          "@type": "Product"
+        },
+        "@type": "ProductOrderItem",
+        "productOffering": {
+          "id": "2000",
+          "name": "Subscriber Line Charge",
+          "externalProductId": ""
+        }
+      },
+      {
+        "id": 3,
+        "action": "delete",
+        "product": {
+          "id": "PI1676063",
+          "productSpecification": {
+            "id": "Copper_POTS",
+            "@type": "ProductSpecificationRef"
+          },
+          "productCharacteristic": [
+            {
+              "name": "classOfService",
+              "value": "MLB"
+            },
+            {
+              "name": "isParent",
+              "value": "True"
+            },
+            {
+              "name": "PRODUCT_SUB_TYPE",
+              "value": "PT"
+            },
+            {
+              "name": "featureCode",
+              "value": "1178"
+            },
+            {
+              "name": "telephoneNum",
+              "value": "18106396851"
+            },
+            {
+              "name": "PRODUCT_ID",
+              "value": "8106396851"
+            },
+            {
+              "name": "additionalInfo",
+              "value": "{\"telecomServicePriority\":\"\"}"
+            },
+            {
+              "name": "PRODUCT_TYPE",
+              "value": "IL"
+            },
+            {
+              "name": "ServiceType",
+              "value": "POTS"
+            }
+          ],
+          "place": {
+            "id": "400000008905040",
+            "@type": "Place"
+          },
+          "@type": "Product"
+        },
+        "@type": "ProductOrderItem",
+        "productOffering": {
+          "id": "1178",
+          "name": "1 Pty Business 7+ Lines",
+          "externalProductId": ""
+        }
+      },
+      {
+        "id": 4,
+        "action": "delete",
+        "product": {
+          "id": "PI1676062",
+          "productSpecification": {
+            "id": "Copper_POTS",
+            "@type": "ProductSpecificationRef"
+          },
+          "productCharacteristic": [
+            {
+              "name": "isParent",
+              "value": "False"
+            },
+            {
+              "name": "PRODUCT_SUB_TYPE",
+              "value": "PT"
+            },
+            {
+              "name": "featureCode",
+              "value": "2035"
+            },
+            {
+              "name": "telephoneNum",
+              "value": "18106396851"
+            },
+            {
+              "name": "PRODUCT_ID",
+              "value": "8106396851"
+            },
+            {
+              "name": "additionalInfo",
+              "value": "{\"telecomServicePriority\":\"\"}"
+            },
+            {
+              "name": "PRODUCT_TYPE",
+              "value": "IL"
+            },
+            {
+              "name": "ServiceType",
+              "value": "POTS"
+            }
+          ],
+          "place": {
+            "id": "400000008905040",
+            "@type": "Place"
+          },
+          "@type": "Product"
+        },
+        "@type": "ProductOrderItem",
+        "productOffering": {
+          "id": "2035",
+          "name": "State Fund",
+          "externalProductId": ""
+        }
+      },
+      {
+        "id": 5,
+        "action": "delete",
+        "product": {
+          "id": "PI1676060",
+          "productSpecification": {
+            "id": "Copper_POTS",
+            "@type": "ProductSpecificationRef"
+          },
+          "productCharacteristic": [
+            {
+              "name": "isParent",
+              "value": "False"
+            },
+            {
+              "name": "PRODUCT_SUB_TYPE",
+              "value": "PT"
+            },
+            {
+              "name": "additionalInfo",
+              "value": "{\"telecomServicePriority\":\"\"}"
+            },
+            {
+              "name": "PRODUCT_ID",
+              "value": "8106396851"
+            },
+            {
+              "name": "PRODUCT_TYPE",
+              "value": "IL"
+            },
+            {
+              "name": "ServiceType",
+              "value": "POTS"
+            },
+            {
+              "name": "featureCode",
+              "value": "LNP5"
+            },
+            {
+              "name": "telephoneNum",
+              "value": "18106396851"
+            }
+          ],
+          "place": {
+            "id": "400000008905040",
+            "@type": "Place"
+          },
+          "@type": "Product"
+        },
+        "@type": "ProductOrderItem",
+        "productOffering": {
+          "id": "LNP5",
+          "name": "Local Number Portability",
+          "externalProductId": ""
+        }
+      },
+      {
+        "id": 6,
+        "action": "delete",
+        "product": {
+          "id": "PI1676065",
+          "productSpecification": {
+            "id": "Copper_POTS",
+            "@type": "ProductSpecificationRef"
+          },
+          "productCharacteristic": [
+            {
+              "name": "isParent",
+              "value": "False"
+            },
+            {
+              "name": "PRODUCT_SUB_TYPE",
+              "value": "PT"
+            },
+            {
+              "name": "ServiceType",
+              "value": "POTS"
+            },
+            {
+              "name": "featureCode",
+              "value": "FACRB"
+            },
+            {
+              "name": "telephoneNum",
+              "value": "18106396851"
+            },
+            {
+              "name": "PRODUCT_ID",
+              "value": "8106396851"
+            },
+            {
+              "name": "additionalInfo",
+              "value": "{\"telecomServicePriority\":\"\"}"
+            },
+            {
+              "name": "PRODUCT_TYPE",
+              "value": "IL"
+            }
+          ],
+          "place": {
+            "id": "400000008905040",
+            "@type": "Place"
+          },
+          "@type": "Product"
+        },
+        "@type": "ProductOrderItem",
+        "productOffering": {
+          "id": "FACRB",
+          "name": "Facility Relocation Fee BUS",
+          "externalProductId": ""
+        }
+      }
+    ],
+    "stateCode": "MI",
+    "lastService": false,
+    "orderSubType": "PORT OUT",
+    "networkType": "Copper",
+    "lspId": 7125,
+    "pon": "POA0000000019536",
+    "dueDate": "2024-09-27"
+  }
+
+  console.log(tson.networkType);
